@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "modern webpage project",
   "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  "homepage": "https://majidhassansheikhi.github.io/majidhassansheikhi",
+ "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy":"gh-pages -d dist"
   },
   "author": "Majid Hassan Sheikhi",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "node-sass": "^9.0.0"
   }
 }
